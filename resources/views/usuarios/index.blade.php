@@ -1,9 +1,8 @@
 @extends('layouts.app')
-@push('styles')
-      @vite(['resources/css/usuarios/index.css'])
-@endpush
+
 @section('contenido')
-    <div class="container">
+ @vite(['resources/css/usuarios/index.css'])  
+<div class="container">
       
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <h1 class='mt-3'>Usuarios del sistema</h1>
